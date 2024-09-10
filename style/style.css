@@ -1,0 +1,130 @@
+body {
+    font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    margin: 0;
+    padding: 0;
+    background-color: #caf0f8;
+}
+header {
+    background-color:#e7ecef;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #C5E3FF;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+}
+nav a.active {
+    background-color: #0077B6;
+    color: white;
+    padding: 5px;
+}
+.hero {
+    width: 100%;
+	max-height: 340vh;
+	position: relative;
+	float: left;
+    margin-top: 0px;
+}
+.services {
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+	float: left;
+    padding: 10px 0;
+    background-color: #e7ecef;
+}
+/*.services*/ .service {
+    width: 250px;
+    height: 375px;
+	position: relative;
+	float: left;
+	margin: 0;
+    background-color: #555;
+}
+.content {
+    display: flex;
+    padding: 20px;
+    background-color: #e7ecef;
+}
+.content .photo {
+    width: 250px;
+    height: 245px;
+	margin: 115px 0 0 0;
+	position: relative;
+    background-color: #555;
+    margin-right: 20px;
+}
+.content .text {
+	font-size: 15px;
+    width: 2000px;
+	margin: 10px;
+	padding: 15px;
+}
+.content .text h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-container{
+    background: #ffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.1);
+    width: 50%;
+    max-width: 350px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-container label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group texturea{
+    resize: vertical;
+}
+
+.form-group button{
+    background-color:#0077B6;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.form-container button:hover{
+    background-color: #6096BA;
+}
+
+footer {
+    background-color: #caf0f8;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+footer p {
+    margin: 0;
+}
